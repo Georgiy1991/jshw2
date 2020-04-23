@@ -1,0 +1,26 @@
+span{
+    color: red;
+}
+
+.title{
+    color: greenyellow;
+    text-align: center;
+}
+.todo{
+    height: 100vh;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.new-li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new-li p, .new-li span{
+    padding: 0 5px;
+
+}
